@@ -45,4 +45,5 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     updateCartDOM(document.getElementById('items-carrito'), document.getElementById('total-carrito'));
+    console.log(productos)
 });
