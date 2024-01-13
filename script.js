@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('carrito', JSON.stringify(carrito));
         updateCartDOM(itemsCarrito, totalCarrito);
     };
+    window.removeFromCart = function (productoId) {
+        let carrito = JSON.parse
+    }
 
     function updateCartDOM(itemsCarrito, totalCarrito) {
         const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
